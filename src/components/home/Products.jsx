@@ -3,7 +3,7 @@ import '../../assets/css/Products.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import cardimg from '../../assets/images/cardimg.png';
 import cardimg2 from '../../assets/images/DryFR.png';
-import cardimg3 from '../../assets/images/Beauty.png';
+import cardimg3 from '../../assets/images/beauty.png';
 import cardimg4 from '../../assets/images/Everyday.png';
 
 const Products = () => {
