@@ -1,0 +1,125 @@
+.blogdetailedcontainer {
+  width: 90%;
+}
+.blogdetailedarea {
+  width: 90%;
+}
+.OrganicEatinghead{
+    color: #7c7979;
+    font-size: 14px;
+
+}
+
+@keyframes slideLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .organicfoodimg {
+    animation: slideLeft 0.8s ease-out forwards;
+    opacity: 0; 
+    height: 400px;
+    
+  }
+.blogparagraph{
+text-align: justify;
+/* width: 700px; */
+}
+
+.blogdetailedcard{
+    border: 1px solid rgb(255, 253, 253);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+/* @media (max-width:320px) {
+    .blogparagraph{
+        width: 100%;
+        min-width: 200px;
+    text-align: justify;
+    overflow: hidden;
+    } 
+    .OrganicEatinghead{
+        color: #7c7979;
+        font-size: 10px;
+    
+    }
+} */
+.blog-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.blogtitlehere{
+    color: green;
+}
+.blogsubhead{
+    color: green;
+}
+.blogimg1{
+    width: 150px;
+    margin: 20px;
+
+}
+.otherbloglist li{
+    text-decoration: none;
+    color: green;
+
+}
+.otherbloglist li:hover{
+   color: rgb(0, 80, 185);
+    
+}
+.right-sidebar {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  height: auto;
+}
+.otherblogbtn{
+    border: 1px solid #f0f0f0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    margin-left: 100px;
+    font-size: 8px;
+    color:rgb(138, 138, 0);
+    border: none;
+
+}
+.blog-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.otherbtn {
+  border: 1px solid #e2dddd;
+  margin: 15px;
+  background: white;
+  color: green;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.otherbtn:hover {
+  background-color: #f6faf6;
+}
+
+@keyframes fadeDown {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .blog-filters {
+    animation: fadeDown 0.8s ease-out;
+  }

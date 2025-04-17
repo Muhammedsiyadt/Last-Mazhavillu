@@ -1,0 +1,83 @@
+.checkout-bg {
+  background-color: #f1f1f1;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.checkout-section {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.section-header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.orange-btn {
+  background-color: #e07109;
+  border-color: #e07109;
+  color: white;
+}
+
+.orange-btn:hover {
+  background-color: darkorange;
+  border-color: darkorange;
+}
+
+
+.custom-radio input[type="radio"] {
+  accent-color: transparent;    
+  border: 2px solid #ccc;       
+  background-color: white;      
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;           
+  transition: all 0.2s ease;   
+  cursor: pointer;
+}
+
+
+.custom-radio input[type="radio"]:checked {
+  border-color: #28a745;         
+  background-color: #28a745;     
+}
+
+
+.custom-radio input[type="radio"]:hover {
+  border-color: #28a745;         
+}
+
+
+.custom-radio input[type="radio"]:checked + label {
+  color: #28a745;                
+}
+
+
+
+
+.payment-radio input[type="radio"] {
+  accent-color: transparent;    
+  border: 2px solid #ccc;      
+  background-color: white;      
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;           
+  transition: all 0.2s ease;    
+  cursor: pointer;
+}
+
+
+.payment-radio input[type="radio"]:checked {
+  border-color: #e07109;         
+  background-color: #e07109;     
+}
+
+
+.payment-radio input[type="radio"]:hover {
+  border-color:#e07109;         
+}
