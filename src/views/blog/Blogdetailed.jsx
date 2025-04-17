@@ -1,7 +1,7 @@
 import React from "react";
-import "../../assets/css/blogpagecss/blogdetailed.css";
-import blogbanner from "../../assets/img/blogbanner.png";
-import organicfoodimg from "../../assets/img/organicfoodimg.webp";
+import "../../assets/css/blogdetailed.css";
+import blogbanner from "../../assets/images/blogbanner.png";
+import organicfoodimg from "../../assets/images/organicfoodimg.webp";
 
 const Blogdetailed = () => {
   return (
