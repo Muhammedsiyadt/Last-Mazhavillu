@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../assets/css/weeklytopvendors.css';
+import '../../assets/css/Weeklytopvendors.css';
 
 import vendorlogo1 from "../../assets/images/vendorlogo1.png";
 import vendorlogo1_image1 from '../../assets/images/vendorlogo1_image1.png';
@@ -13,7 +13,7 @@ import vendorlogo2_image2 from '../../assets/images/vendorlogo2_image2.png';
 import vendorlogo2_image3 from '../../assets/images/vendorlogo2_image3.png';
 import vendorlogo2_image4 from '../../assets/images/vendorlogo2_image4.png';
 
-import vendorlogo3 from '../../assets/images/vendorlogo3.png';
+// import vendorlogo3 from '../../assets/images/vendorlogo3.png';
 import vendorlogo3_image1 from '../../assets/images/vendorlogo3_image1.png';
 import vendorlogo3_image2 from '../../assets/images/vendorlogo3_image2.png';
 import vendorlogo3_image3 from '../../assets/images/vendorlogo3_image3.png';
