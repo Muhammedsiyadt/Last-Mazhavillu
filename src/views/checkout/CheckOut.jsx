@@ -3,7 +3,7 @@ import AddressForm from './Address';
 import PriceDetails from './PriceDetails';
 import PaymentOptions from './Payment';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../assets/css/checkout.css';
+import '../../assets/css/Checkout.css';
 
 const Checkout = () => {
   const [addressData, setAddressData] = useState(null);
