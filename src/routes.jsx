@@ -2,6 +2,7 @@ import React from "react";
 import { useRoutes } from "react-router-dom";
 import PrivateRoute from "./components/PrivateRoute";
 import { Layout,AuthLayout } from "./layout";
+import Listing from "./views/shop/Listing";
 
 /* ***Layouts**** */
 const Home = React.lazy(() => import("./views/home/Home"));
@@ -42,6 +43,7 @@ export default function Router() {
         { path: "contact", element: <Contact />, index: true  },
         { path: "blog", element: <Blog />, index: true  },
         { path: "blogdetailed", element: <Blogdetailed />, index: true  },
+        { path: "shop", element: <Listing />, index: true  },
       ],
     },
     // {

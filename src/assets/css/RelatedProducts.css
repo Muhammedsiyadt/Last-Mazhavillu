@@ -4,11 +4,11 @@
 }
 
 
-.youmightheading {
+.relatedProducts .youmightheading {
     margin-bottom: 20px;
 }
 
-.h4_1 {
+.relatedProducts .h4_1 {
     color: green;
     font-size: 21px;
     font-weight: 700px;
@@ -17,7 +17,7 @@
 
 }
 
-.h4_2 {
+.relatedProducts .h4_2 {
     font-size: 21px;
     font-weight: 700px;
     text-align: end;
@@ -27,7 +27,7 @@
 }
 
 @media (max-width: 320px) {
-    .h4_1 {
+    .relatedProducts .h4_1 {
         color: green;
         font-size: 21px;
         font-weight: 700px;
@@ -37,7 +37,7 @@
 
     }
 
-    .h4_2 {
+    .relatedProducts .h4_2 {
         font-size: 16px;
         font-weight: 700px;
         text-align: end;
@@ -51,7 +51,7 @@
 }
 
 @media (max-width: 375px) {
-    .h4_1 {
+    .relatedProducts .h4_1 {
         color: green;
         font-size: 21px;
         font-weight: 700px;
@@ -59,7 +59,7 @@
         left: 50px;
     }
 
-    .h4_2 {
+    .relatedProducts .h4_2 {
         font-size: 16px;
         font-weight: 700px;
         text-align: end;
@@ -73,7 +73,7 @@
 
 @media (max-width: 425px) {
 
-    .h4_1 {
+    .relatedProducts .h4_1 {
         color: green;
         font-size: 21px;
         font-weight: 700px;
@@ -81,7 +81,7 @@
         left: 50px;
     }
 
-    .h4_2 {
+    .relatedProducts .h4_2 {
         font-size: 16px;
         font-weight: 700px;
         text-align: end;
@@ -93,13 +93,13 @@
     }
 }
 
-.subheading3 {
+.relatedProducts .subheading3 {
     font-weight: bold;
     color: black;
     padding-bottom: 10px;
 }
 
-.topcard3 {
+.relatedProducts .topcard3 {
     border: 1px solid #ddd;
     border-radius: 10px;
     padding: 1rem;
@@ -114,23 +114,23 @@
 
 
 
-.card-body {
+.relatedProducts .card-body {
     padding: 15px;
 }
 
-.card-title {
+.relatedProducts .card-title {
     font-size: 1.25rem;
     font-weight: bold;
     text-align: start;
 }
 
-.card-text {
+.relatedProducts .card-text {
     font-size: 0.9rem;
     color: #555;
     text-align: start;
 }
 
-.topbtn3 {
+.relatedProducts .topbtn3 {
     width: 98px;
     height: 29px;
     border-radius: 5px;
@@ -143,22 +143,22 @@
     padding: 10px 0;
 }
 
-.topbtn:hover {
+.relatedProducts .topbtn:hover {
     background-color: #fac35e;
 }
 
-.star3 {
+.relatedProducts .star3 {
     color: green;
 }
 
-.cardimgdiv3 {
+.relatedProducts .cardimgdiv3 {
     position: relative;
     background-color: #b3b3b377;
     border-radius: 10px;
 
 }
 
-.topimg3 {
+.relatedProducts .topimg3 {
     padding: 20px;
     width: 212px;
     height: 133px;
@@ -173,7 +173,7 @@
 
 @media (max-width: 768px) {
 
-    .h4_1 {
+    .relatedProducts .h4_1 {
         color: green;
         font-size: 21px;
         font-weight: 700px;
@@ -181,7 +181,7 @@
         left: 50px;
     }
 
-    .h4_2 {
+    .relatedProducts .h4_2 {
         font-size: 16px;
         font-weight: 700px;
         text-align: end;
@@ -192,20 +192,20 @@
 
     }
 
-    .topbtn3 {
+    .relatedProducts .topbtn3 {
         font-size: 10px;
         margin-top: 15px;
     }
 }
 
 @media (max-width: 1024px) {
-    .topbtn3 {
+    .relatedProducts .topbtn3 {
         font-size: 10px;
         margin-top: 15px;
     }
 }
 
-.icons .wishlisttop {
+.relatedProducts .icons .wishlisttop {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -214,7 +214,7 @@
     z-index: 10;
 }
 
-.icons .carttop {
+.relatedProducts .icons .carttop {
     position: absolute;
     top: 30px;
     right: 10px;
@@ -223,7 +223,7 @@
     z-index: 10;
 }
 
-.icons svg {
+.relatedProducts .icons svg {
     width: 15px;
     height: 20px;
     color: #fff;
@@ -231,6 +231,6 @@
 
 }
 
-.icons svg:hover {
+.relatedProducts .icons svg:hover {
     color: #084e0e;
 }
